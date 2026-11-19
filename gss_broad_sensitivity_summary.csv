@@ -1,0 +1,3 @@
+analysis,prediction_type,results,fw_improves,fw_interval_above_300,median_fw_equivalent,median_pw_equivalent,median_pw_equivalent_adjusted_correlation
+Broader recoding,Single answer,80,6,1,206,310,306
+Broader recoding,Probability,80,54,18,312,318,314

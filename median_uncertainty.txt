@@ -1,0 +1,17 @@
+GSS, single answers: 80 results; narrower 50, wider 17, within half an interview of 300 13
+  median equivalent 305.4 (margin of error -0.9%); 95% range of the median 300.0 to 311.9 (margin of error +0.0% to -1.9%)
+GSS, stated probabilities without Llama 3.1 8B: 60 results; narrower 44, wider 16, within half an interview of 300 0
+  median equivalent 313.9 (margin of error -2.2%); 95% range of the median 297.9 to 328.4 (margin of error +0.4% to -4.4%)
+Twin-2K-500: 13 results; narrower 8, wider 1, within half an interview of 300 4
+  median equivalent 301.8 (margin of error -0.3%); 95% range of the median 300.0 to 309.0 (margin of error -0.0% to -1.5%)
+Run-to-run difference, out of sample (points of margin of error): median 0.43, maximum 6.9; 43 of 80 pairs differ by less than 0.5
+Largest differences:
+model        style  q     
+llama3.1-8b  A      fair      2.5
+                    gunlaw    2.8
+                    cappun    3.5
+             C      grass     4.8
+                    gunlaw    5.3
+                    fefam     5.4
+             A      happy     6.8
+             C      cappun    6.9

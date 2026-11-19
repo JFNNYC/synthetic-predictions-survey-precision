@@ -1,0 +1,20 @@
+Regression alone, median precision equivalent across 10 questions:
+  seven lambda=1     300.5  MOE change -0.08%
+  seven lambda=10    304.5  MOE change -0.75%
+  seven lambda=50    311.3  MOE change -1.83%
+  seven lambda=200   308.1  MOE change -1.33%
+  five  lambda=1     300.5  MOE change -0.08%
+  five  lambda=10    303.4  MOE change -0.57%
+  five  lambda=50    307.7  MOE change -1.26%
+  five  lambda=200   306.7  MOE change -1.10%
+single                     n= 80 LLM alone median  305.4 (-0.89%)  regression alone median  304.5  LLM+regression median  303.0
+prob, all models           n= 80 LLM alone median  310.9 (-1.78%)  regression alone median  301.6  LLM+regression median  301.6
+prob, excl. Llama 3.1 8B   n= 60 LLM alone median  313.9 (-2.23%)  regression alone median  304.5  LLM+regression median  304.7
+            model style seed      q   n       alone  regression        both
+120  llama3.3-70b     A    0  abany  99  379.884819  412.726597  409.350398
+130  llama3.3-70b     A    1  abany  99  379.884819  412.726597  409.350398
+                model style seed  ...      alone  regression        both
+46  claude-sonnet-4.6     A    0  ...  308.00788   296.90455  298.427493
+56  claude-sonnet-4.6     A    1  ...  308.00788   296.90455  298.427493
+
+[2 rows x 8 columns]

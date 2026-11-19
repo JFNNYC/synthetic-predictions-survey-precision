@@ -1,0 +1,9 @@
+coding,penalty,median_eq,moe_change,n_questions
+all seven facts,1,293.9,1.0,10
+all seven facts,10,298.3,0.3,10
+all seven facts,50,305.1,-0.8,10
+all seven facts,200,308.7,-1.4,10
+five numeric facts,1,302.7,-0.4,10
+five numeric facts,10,305.4,-0.9,10
+five numeric facts,50,309.2,-1.5,10
+five numeric facts,200,307.6,-1.2,10
